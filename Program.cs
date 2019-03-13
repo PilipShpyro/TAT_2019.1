@@ -9,10 +9,10 @@ namespace ConsoleApp3
             try
             {
 
-                if (args.Length > 0 && args[0].Length > 2)
+                if (args.Length > 0 && args[0].Length > 2)//Checking if the lenght of first argument more than two
                 {
                     SearchAndDisplay a = new SearchAndDisplay();
-                    for (int i = 0; i < args.Length; i++)
+                    for (int i = 0; i < args.Length; i++)//work with all arguments
                     {
                         a.GetStr(args[i]);
                         a.Work();
