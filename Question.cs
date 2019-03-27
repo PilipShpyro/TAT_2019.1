@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    class Program
+    class Question //Contains query and question
     {
-        static void Main(string[] args)
-        {
-            Subject a = new Subject();
-        }
+        public string Query { get; set; }
+        public string Answer { get; set; }
         public override string ToString()
         {
-            return "Program";
+            return "Question";
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33FAF864-0529-4D6C-ACD2-D1E679C095EC}</ProjectGuid>
+    <ProjectGuid>{E16C27C5-9C1A-4F8D-B6F8-0562C5B873E1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp3</RootNamespace>
-    <AssemblyName>ConsoleApp3</AssemblyName>
+    <RootNamespace>ConsoleApp5</RootNamespace>
+    <AssemblyName>ConsoleApp5</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Documents\dotNet\task1\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Lab.cs" />
+    <Compile Include="Lection.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="Presentation.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="..\..\..\..\Documents\dotNet\task1\SearchAndDisplay.cs">
-      <Link>SearchAndDisplay.cs</Link>
-    </Compile>
+    <Compile Include="Question.cs" />
+    <Compile Include="Seminar.cs" />
+    <Compile Include="StringExtension.cs" />
+    <Compile Include="Subject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    class Program
+    class Lab
     {
-        static void Main(string[] args)
+        public Lab()
         {
-            Subject a = new Subject();
+
         }
         public override string ToString()
         {
-            return "Program";
+            return "Lab";
         }
     }
 }
